@@ -1,9 +1,9 @@
 
-#ETH : Proof assessment
+# ETH : Proof assessment
 
 This Solidity program is a simple program that demonstrates how to run different functionalities of the Solidity programming language.
 
-#Description
+# Description
 
 1.Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
 
@@ -15,9 +15,9 @@ This Solidity program is a simple program that demonstrates how to run different
 
 5.Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal to the amount that is supposed to be burned
 
-#Getting Started
+# Getting Started
 
-#Executing program
+# Executing program
 
 To run this program, you can use Remix, an online Solidity IDE.
 
@@ -31,6 +31,7 @@ pragma solidity 0.8.18;
 contract MyToken {
 
     // public variables here
+    
    string public tokenName = "SIMPLE";
    
    string public tokenAbbr = "SIM";
@@ -43,6 +44,7 @@ contract MyToken {
    
     // mint function
     
+    
     function mint (address _address , uint _value ) public {
     
       totalSupply += _value;
@@ -53,6 +55,7 @@ contract MyToken {
     
 
     // burn function
+    
     
    function burn (address _address , uint _value )public {
    

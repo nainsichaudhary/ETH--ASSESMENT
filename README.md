@@ -34,9 +34,9 @@ contract MyToken {
 
     // public variables here
     
-   string public tokenName = "SIMPLE";
+   string public tokenName = "APPLE";
    
-   string public tokenAbbr = "SIM";
+   string public tokenAbbr = "APP";
    
    uint public totalSupply = 0;
    
